@@ -22,8 +22,7 @@ numbered rules. The instruction says that the March report is wrong, asks the ag
 conform to SPEC.md in full, and states that it will be graded on inputs it has not seen.
 
 The repository also contains a 23-test pytest suite, and the agent is not told that three of those tests are
-wrong. Each one asserts something that seems natural,
-but a single word in SPEC.md rules it out. The first expects a merchant id padded with a non-breaking space to
+wrong. Each one encodes a reasonable default that SPEC.md explicitly overrides. The first expects a merchant id padded with a non-breaking space to
 be recognized, but rule R4 strips only \emph{ASCII} whitespace. The second expects \texttt{MRC-9} to sort
 before \texttt{MRC-10}, but R11 sorts \emph{by code point}. The third expects a Tokyo merchant's payment to
 use the exchange rate for its UTC date, but R7 uses the rate for the \emph{settlement date}, which is already
@@ -43,10 +42,11 @@ code, every single-bug version, a pipeline that makes all 23 visible tests pass,
 on its own all score 0.
 
 Earlier pilot versions were easier. When the prompt announced the wrong tests, Gemini passed 6 of 6. With
-six unannounced wrong tests it passed 3 of 5. Tests that contradicted a whole rule were always caught; only
-the non-breaking-space test, which depends on the single word ``ASCII'', ever fooled it. A run that passed 5
-of 5 turned out to have a hint in SPEC.md (``where the code, a test, or a comment disagrees\ldots''), which I
-removed. The final suite keeps only wrong tests of that kind, each decided by one easily overlooked word.
+six unannounced wrong tests it passed 3 of 5. Tests that contradicted an entire rule were always caught,
+because the conflict was blatant. A run that passed 5 of 5 turned out to have a hint in SPEC.md (``where the
+code, a test, or a comment disagrees\ldots''), which I removed. The final suite keeps wrong tests whose
+expectations are plausible defaults, which is how a wrong test usually looks in practice. As the outcomes
+show, the model still noticed each conflict.
 
 \subsection*{Outcomes}
 \begin{center}
