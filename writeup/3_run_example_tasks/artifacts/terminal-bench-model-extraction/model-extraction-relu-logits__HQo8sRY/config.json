@@ -1,0 +1,12 @@
+{
+    "task": {
+        "path": "tasks/model-extraction-relu-logits"
+    },
+    "trial_name": "model-extraction-relu-logits__HQo8sRY",
+    "trials_dir": "writeup/3_run_example_tasks/artifacts/terminal-bench-model-extraction",
+    "agent": {
+        "import_path": "pinned_agent:MiniSweAgent",
+        "model_name": "openrouter/google/gemini-3.8-flash"
+    },
+    "job_id": "831865e5-d1ee-415e-b450-95d9ca5374f7"
+}

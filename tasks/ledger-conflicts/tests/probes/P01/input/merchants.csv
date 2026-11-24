@@ -1,0 +1,9 @@
+merchant_id,name,timezone,settlement_currency,fee_bps
+MRC-ACME01,Acme Outfitters,America/Chicago,USD,290
+MRC-BOLT02,Bolt Hardware,America/New_York,USD,275
+MRC-CEDR03,Cedar & Pine Market,America/Los_Angeles,USD,310
+MRC-DELT04,Delta Kaffeehaus,Europe/Berlin,EUR,180
+MRC-ECHO05,Echo Books,Europe/Dublin,EUR,195
+MRC-FUJI06,Fuji Stationery,Asia/Tokyo,JPY,360
+MRC-GULF07,Gulf Pearl Trading,Asia/Kuwait,KWD,250
+MRC-HANA08,Hana Studio,Asia/Tokyo,USD,325

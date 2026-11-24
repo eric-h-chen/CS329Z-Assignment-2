@@ -21,6 +21,19 @@ jobs/
 *.synctex.gz
 *.toc
 
+# Section 4 tasks that are not being submitted (kept locally, outside tasks/
+# so check_submission.py sees exactly one task: tasks/ledger-conflicts)
+backup_tasks/
+writeup/4_create_tasks/report_decoder.tex
+
+# Authoring notes and build output for ledger-conflicts. The generator and
+# build scripts in tools/ledger/ are committed; their scratch output is not.
+ledger_spec.md
+tools/ledger/out/
+
+# Personal work log (not part of the submission)
+writeup/WORKLOG.md
+
 # Editor and OS files
 .DS_Store
 *~

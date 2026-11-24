@@ -1,0 +1,4 @@
+merchant_id,settlement_date,currency,gross_minor,refunds_minor,fees_minor,net_minor,payment_count
+MRC-ACME01,2026-03-10,USD,271,0,8,263,1
+MRC-ACME01,2026-03-11,USD,272,0,8,264,1
+MRC-IRIS09,2026-03-12,USD,1000,0,13,987,1

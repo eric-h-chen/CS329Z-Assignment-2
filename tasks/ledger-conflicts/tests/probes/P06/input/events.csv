@@ -1,0 +1,3 @@
+event_seq,txn_id,type,merchant_id,amount,currency,occurred_at,status,original_txn_id,memo
+601,T-P06-1,payment,MRC-FUJI06,1200,JPY,2026-03-10T03:00:00Z,settled,,
+602,T-P06-2,payment,MRC-GULF07,1.500,KWD,2026-03-10T09:00:00Z,settled,,

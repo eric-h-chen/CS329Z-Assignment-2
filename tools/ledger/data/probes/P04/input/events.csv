@@ -1,0 +1,11 @@
+event_seq,txn_id,type,merchant_id,amount,currency,occurred_at,status,original_txn_id,memo
+401,T-P04-1,payment,MRC-ACME01,10.00,USD,2026-03-10T18:00:00Z,settled,,
+402,T-P04-1,payment,MRC-ACME01,10.00,USD,2026-03-10T18:00:00Z,reversed,,
+403,T-P04-2,payment,MRC-ACME01,40.00,USD,2026-03-10T19:00:00Z,pending,,
+404,T-P04-2,payment,MRC-ACME01,40.00,USD,2026-03-10T19:00:00Z,failed,,
+405,T-P04-3,payment,MRC-ACME01,20.00,USD,2026-03-11T18:00:00Z,settled,,
+406,T-P04-3,payment,MRC-ACME01,20.00,USD,2026-03-11T18:00:00Z,reversed,,
+407,T-P04-3,payment,MRC-ACME01,20.00,USD,2026-03-11T18:00:00Z,settled,,
+408,T-P04-4,payment,MRC-ACME01,30.00,USD,2026-03-10T20:00:00Z,settled,,
+409,T-P04-5,payment,MRC-ACME01,50.00,USD,2026-03-12T18:00:00Z,settled,,
+410,T-P04-5,payment,MRC-ACME01,50.00,USD,2026-03-12T18:00:00Z,pending,,

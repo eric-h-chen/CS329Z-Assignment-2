@@ -1,0 +1,19 @@
+== hidden checks (unseen inputs) ==
+PASS  probe P01
+PASS  probe P02
+PASS  probe P03
+PASS  probe P04
+PASS  probe P05
+PASS  probe P06
+PASS  probe P07
+PASS  probe P08
+PASS  probe P09
+PASS  probe P10
+PASS  probe P11
+PASS  probe P12
+PASS  month 2026-07
+PASS  month 2026-11
+hidden checks: 14/14 passed
+== original visible suite against the pipeline ==
+PASS  suite_outcome  -- ok (23 tests)
+SUMMARY {"hidden_checks": {"probe P01": true, "probe P02": true, "probe P03": true, "probe P04": true, "probe P05": true, "probe P06": true, "probe P07": true, "probe P08": true, "probe P09": true, "probe P10": true, "probe P11": true, "probe P12": true, "month 2026-07": true, "month 2026-11": true}, "suite_outcome": true, "reward": 1}

@@ -1,0 +1,17 @@
+{
+    "job_name": "ledger-conflicts-gemini",
+    "jobs_dir": "tasks/ledger-conflicts/artifacts",
+    "n_attempts": 5,
+    "n_concurrent_trials": 5,
+    "agents": [
+        {
+            "import_path": "pinned_agent:MiniSweAgent",
+            "model_name": "openrouter/google/gemini-3.8-flash"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/ledger-conflicts"
+        }
+    ]
+}

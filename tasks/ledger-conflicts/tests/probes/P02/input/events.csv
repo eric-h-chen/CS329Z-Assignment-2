@@ -1,0 +1,8 @@
+event_seq,txn_id,type,merchant_id,amount,currency,occurred_at,status,original_txn_id,memo
+201,T-P02-1,payment,mrc-acme01,10.00,USD,2026-03-10T18:00:00Z,settled,,
+202,T-P02-2,payment, MRC-BOLT02 ,20.00,USD,2026-03-10T18:00:00Z,settled,,
+203,T-P02-3,payment,	MRC-CEDR03,10.00,USD,2026-03-11T20:00:00Z,settled,,
+220,T-P02-4,payment,MRC-GHOST99,15.00,USD,2026-03-12T18:00:00Z,settled,,
+210,T-P02-5,refund,MRC-ZETA00,5.00,USD,2026-04-01T12:00:00Z,settled,T-PRIOR-00017,
+230,T-P02-6,payment,MRC-GHOST99,9.00,USD,2026-03-12T19:00:00Z,pending,,
+204,T-P02-7,payment,MRC-ACME01 ,10.00,USD,2026-03-11T18:00:00Z,settled,,

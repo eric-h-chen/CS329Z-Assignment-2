@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks/ledger-conflicts"
+    },
+    "trial_name": "ledger-conflicts__bnZ7RQu",
+    "trials_dir": "tasks/ledger-conflicts/artifacts/ledger-conflicts-oracle",
+    "job_id": "ba5d0cc9-d224-4605-acf5-024c50674abb"
+}

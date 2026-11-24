@@ -1,0 +1,33 @@
+{
+    "schema_version": 1,
+    "task": {
+        "name": "ledger-conflicts",
+        "type": "local",
+        "digest": "sha256:ff3d4891491da02bd3d0621f1703e8dba1d4aa189c2527ad7cb485edb2079b74",
+        "path": "tasks/ledger-conflicts"
+    },
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent": {
+        "import_path": "pinned_agent:MiniSweAgent",
+        "model_name": "openrouter/google/gemini-3.8-flash",
+        "skills": [],
+        "extra_allowed_hosts": [],
+        "kwargs": {},
+        "mcp_servers": []
+    },
+    "skills": [],
+    "environment": {
+        "type": "docker",
+        "force_build": false,
+        "delete": true,
+        "cpu_enforcement_policy": "auto",
+        "memory_enforcement_policy": "auto",
+        "extra_docker_compose": [],
+        "kwargs": {},
+        "extra_allowed_hosts": []
+    },
+    "verifier": {
+        "disable": false
+    }
+}

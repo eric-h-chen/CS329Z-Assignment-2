@@ -1,0 +1,19 @@
+== hidden checks (unseen inputs) ==
+PASS  probe P01
+FAIL  probe P02  -- report.csv: 4 data rows, expected 3; first differing row 2: got ['MRC-ACME01', '2026-03-11', 'USD', '1000', '0', '29', '971', '1'] want ['MRC-BOLT02', '2026-03-10', 'USD', '2000', '0', '55', '1945', '1']
+PASS  probe P03
+PASS  probe P04
+PASS  probe P05
+PASS  probe P06
+PASS  probe P07
+FAIL  probe P08  -- report.csv row 5: got ['MRC-HANA08', '2026-03-17', 'USD', '1100', '0', '36', '1064', '1'] want ['MRC-HANA08', '2026-03-17', 'USD', '1110', '0', '36', '1074', '1']
+PASS  probe P09
+PASS  probe P10
+PASS  probe P11
+FAIL  probe P12  -- report.csv row 3: got ['MRC-JADE9', '2026-03-19', 'USD', '1000', '0', '30', '970', '1'] want ['MRC-JADE10', '2026-03-19', 'USD', '1000', '0', '30', '970', '1']
+FAIL  month 2026-07  -- report.csv row 2: got ['MRC-ACME01', '2026-07-02', 'USD', '237081', '0', '6875', '230206', '6'] want ['MRC-ACME01', '2026-07-02', 'USD', '237014', '0', '6873', '230141', '6']
+FAIL  month 2026-11  -- report.csv row 1: got ['MRC-ACME01', '2026-11-01', 'USD', '766492', '7702', '22229', '736561', '19'] want ['MRC-ACME01', '2026-11-01', 'USD', '766595', '7702', '22232', '736661', '19']
+hidden checks: 9/14 passed
+== original visible suite against the pipeline ==
+FAIL  suite_outcome  -- test_fx_tokyo_merchant: passed, expected failed; test_merchant_id_nbsp: passed, expected failed; test_merchant_sort_order: passed, expected failed
+SUMMARY {"hidden_checks": {"probe P01": true, "probe P02": false, "probe P03": true, "probe P04": true, "probe P05": true, "probe P06": true, "probe P07": true, "probe P08": false, "probe P09": true, "probe P10": true, "probe P11": true, "probe P12": false, "month 2026-07": false, "month 2026-11": false}, "suite_outcome": false, "reward": 0}

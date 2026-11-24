@@ -1,0 +1,4 @@
+event_seq,txn_id,type,merchant_id,amount,currency,occurred_at,status,original_txn_id,memo
+102,T-P03-1,payment,MRC-ACME01,10.00,USD,2026-03-10T18:00:00Z,settled,,
+1001,T-P03-1,payment,MRC-ACME01,30.00,USD,2026-03-10T18:00:00Z,settled,,
+98,T-P03-1,payment,MRC-ACME01,20.00,USD,2026-03-10T18:00:00Z,settled,,

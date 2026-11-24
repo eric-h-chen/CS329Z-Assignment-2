@@ -1,0 +1,12 @@
+{
+    "task": {
+        "path": "tasks/ledger-conflicts"
+    },
+    "trial_name": "ledger-conflicts__B4XosEa",
+    "trials_dir": "tasks/ledger-conflicts/artifacts/ledger-conflicts-gemini",
+    "agent": {
+        "import_path": "pinned_agent:MiniSweAgent",
+        "model_name": "openrouter/google/gemini-3.8-flash"
+    },
+    "job_id": "fbfb6f5c-0668-4ef4-b1f7-0345c1831c24"
+}

@@ -1,0 +1,4 @@
+event_seq,txn_id,type,merchant_id,amount,currency,occurred_at,status,original_txn_id,memo
+901,T-P09-1,payment,MRC-ACME01,2.50,EUR,2026-03-10T18:00:00Z,settled,,
+902,T-P09-2,payment,MRC-ACME01,2.50,EUR,2026-03-11T18:00:00Z,settled,,
+903,T-P09-3,payment,MRC-IRIS09,10.00,USD,2026-03-12T18:00:00Z,settled,,

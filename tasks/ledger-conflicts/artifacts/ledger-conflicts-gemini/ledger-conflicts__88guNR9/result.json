@@ -1,0 +1,111 @@
+{
+    "id": "623e937e-2dc9-4c21-bf9f-10d49cb694ab",
+    "task_name": "cs329z/ledger-conflicts",
+    "trial_name": "ledger-conflicts__88guNR9",
+    "trial_uri": "file:///Users/EricChen/Documents/Stanford%20Class%20Material/Fall%2026-27/CS%20329Z/Homeworks/assignment2-evals/tasks/ledger-conflicts/artifacts/ledger-conflicts-gemini/ledger-conflicts__88guNR9",
+    "task_id": {
+        "path": "tasks/ledger-conflicts"
+    },
+    "source": null,
+    "task_checksum": "8bb5bb32060f8adc3b4d6ba5443486d27a04a5322b66b4de3fee96f055f7c9bd",
+    "config": {
+        "task": {
+            "path": "tasks/ledger-conflicts",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "ledger-conflicts__88guNR9",
+        "trials_dir": "tasks/ledger-conflicts/artifacts/ledger-conflicts-gemini",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": null,
+            "import_path": "pinned_agent:MiniSweAgent",
+            "model_name": "openrouter/google/gemini-3.8-flash",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "fbfb6f5c-0668-4ef4-b1f7-0345c1831c24"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "2.4.6",
+        "model_info": {
+            "name": "google/gemini-3.8-flash",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 14415229,
+        "n_cache_tokens": 13556995,
+        "n_output_tokens": 60303,
+        "cost_usd": 0.0,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-11-24T01:13:06.138973Z",
+    "finished_at": "2026-11-24T01:27:14.591774Z",
+    "environment_setup": {
+        "started_at": "2026-11-24T01:13:06.361638Z",
+        "finished_at": "2026-11-24T01:13:12.007270Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-24T01:13:12.007319Z",
+        "finished_at": "2026-11-24T01:14:06.285968Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-24T01:14:06.286228Z",
+        "finished_at": "2026-11-24T01:26:55.722107Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-24T01:26:56.092896Z",
+        "finished_at": "2026-11-24T01:27:03.472084Z"
+    },
+    "step_results": null
+}

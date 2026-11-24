@@ -1,0 +1,12 @@
+{
+    "task": {
+        "path": "tasks/django__django-11099"
+    },
+    "trial_name": "django__django-11099__pfSb4fq",
+    "trials_dir": "writeup/3_run_example_tasks/artifacts/swebench-django-11099",
+    "agent": {
+        "import_path": "pinned_agent:MiniSweAgent",
+        "model_name": "openrouter/google/gemini-3.8-flash"
+    },
+    "job_id": "ef8e8099-4907-4f4b-9d21-6d575244cb4d"
+}

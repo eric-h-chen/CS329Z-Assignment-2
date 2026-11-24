@@ -1,0 +1,8 @@
+event_seq,txn_id,type,merchant_id,amount,currency,occurred_at,status,original_txn_id,memo
+131,T-P12-1,payment,MRC-ACME01,50.00,USD,2026-03-18T17:00:00Z,settled,,
+132,T-P12-2,payment,MRC-ACME01,20.00,USD,2026-03-18T18:00:00Z,settled,,
+133,T-P12-3,refund,MRC-ACME01,5.00,USD,2026-03-18T19:00:00Z,settled,T-P12-1,
+134,T-P12-4,refund,MRC-ACME01,30.00,USD,2026-03-20T18:00:00Z,settled,T-P12-1,
+135,T-P12-5,payment,MRC-ACME01,0.00,USD,2026-03-18T20:00:00Z,settled,,card verification
+136,T-P12-6,payment,MRC-JADE9,10.00,USD,2026-03-19T18:00:00Z,settled,,
+137,T-P12-7,payment,MRC-JADE10,10.00,USD,2026-03-19T18:00:00Z,settled,,

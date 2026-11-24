@@ -1,0 +1,19 @@
+== hidden checks (unseen inputs) ==
+PASS  probe P01
+FAIL  probe P02  -- report.csv: 4 data rows, expected 3; first differing row 2: got ['MRC-ACME01', '2026-03-11', 'USD', '1000', '0', '29', '971', '1'] want ['MRC-BOLT02', '2026-03-10', 'USD', '2000', '0', '55', '1945', '1']
+PASS  probe P03
+PASS  probe P04
+PASS  probe P05
+PASS  probe P06
+PASS  probe P07
+PASS  probe P08
+PASS  probe P09
+PASS  probe P10
+PASS  probe P11
+PASS  probe P12
+PASS  month 2026-07
+PASS  month 2026-11
+hidden checks: 13/14 passed
+== original visible suite against the pipeline ==
+FAIL  suite_outcome  -- test_merchant_id_nbsp: passed, expected failed
+SUMMARY {"hidden_checks": {"probe P01": true, "probe P02": false, "probe P03": true, "probe P04": true, "probe P05": true, "probe P06": true, "probe P07": true, "probe P08": true, "probe P09": true, "probe P10": true, "probe P11": true, "probe P12": true, "month 2026-07": true, "month 2026-11": true}, "suite_outcome": false, "reward": 0}

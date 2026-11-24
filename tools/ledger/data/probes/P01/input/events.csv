@@ -1,0 +1,5 @@
+﻿event_seq,txn_id,type,merchant_id,amount,currency,occurred_at,status,original_txn_id,memo
+101,T-P01-1,payment,MRC-ACME01,10.00,USD,2026-03-10T18:00:00Z,settled,,"Invoice 42, March"
+102,T-P01-2,payment,MRC-ACME01,20.00,USD,2026-03-10T19:00:00Z,settled,,"Line one
+He said ""fine"""
+103,T-P01-3,payment,MRC-ACME01,30.00,USD,2026-03-11T18:00:00Z,settled,,plain note
